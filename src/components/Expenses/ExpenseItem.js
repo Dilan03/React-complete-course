@@ -8,7 +8,7 @@ const ExpenseItem = (props) => {
   const [title, setTitle] = useState(props.title);// should'nt be call in nested functions 
 
   const clickHandler = () => {
-    setTitle('Updated!');
+    setTitle('Updated!'); // we pass the new value as an argument 
     console.log(title)
   }
 
